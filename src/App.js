@@ -4,7 +4,7 @@ import requests from './services/requests';
 import Nav from './components/Nav'
 function App() {
   return (
-    <div className='bg-[#111]'>
+    <div className='bg-black'>
       <Nav />
       <Banner />
       <Row title="NETFLIX ORIGNALS" fetchUrl={requests.fetchNetflixOrignals} isLargeRow />

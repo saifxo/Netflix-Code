@@ -23,7 +23,7 @@ function Banner() {
                 <h1 className='text-5xl font-extrabold pb-2 '>
                     {movie?.title || movie?.name || movie?.original_name}
                 </h1>
-                <div className='bannerbuttons'>
+                <div className='p-5'>
                     <button className='cursor-pointer text-white font-bold rounded-sm px-8 mr-4 bg-[rgba(51,51,51,0.5)] hover:text-black hover:bg-[#e6e6e6] hover:transition-all py-2'>Play</button>
                     <button className='cursor-pointer text-white font-bold rounded-sm px-8 mr-4 bg-[rgba(51,51,51,0.5)] hover:text-black hover:bg-[#e6e6e6] hover:transition-all py-2'>My List</button>
                 </div>
